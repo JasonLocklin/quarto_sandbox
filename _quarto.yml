@@ -2,4 +2,10 @@ project:
   title: "quarto_sandbox"
 
 
-
+#Freeze allows computations to be kept rather than being re-computed for
+#every render. This might be useful for a document that has fragile computations
+#or unreliable data sources, but isn't a good idea generally. I leave it
+#commented out so that the computations are completed every time.
+#
+#execute:
+#  freeze: auto
